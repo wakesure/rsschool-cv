@@ -1,2 +1,2 @@
 # rsschool-cv
-hello world!
+https://wakesure.github.io/rsschool-cv/cv
