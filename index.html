@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <header><h1>This is my own page</h1></header>
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" sizes="64x64">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
 </head>
 <body>
-    
+    <form action="/index.html">
+        <label for="name">Введите ваше имя</label>
+        <input type="text" id="name" placeholder="Иванов Иван Иванович">
+        <button>Ввод</button>
+    </form>
+    <form action="/index.html">
+        <label><input type="checkbox" name="friends" value="yes">Мы друзья
+        </label>
+        <label><input type="checkbox" name="friends" value="no">Мы знакомые
+        </label>
+        <label><input type="checkbox" name="friends" value="maybe">Мы с вами не знакомы
+        </label>
+    </form>
 </body>
+<footer>
+    <form action="/index.html">
+        <textarea rows="10" cols="50">Здесь вы можете оставить свой отзыв</textarea>
+    </form>
+    <div id="menu">
+        <ul>
+            <li><a href="/insagram">instagram</a></li>
+            <li><a href="/facebook">facebook</a></li>
+            <li><a href="/twitter">twitter</a></li>
+        </ul>
+    </div>
+</footer>
 </html>
