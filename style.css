@@ -1,13 +1,3 @@
-@keyframes color-change{
-    0%{
-        color: black;
-    }
-    50%{color: red;}
-    100%{color: blue;}
-}
-.animation{
-    animation: color-change 3s infinite;
-}
 .begin{
     font-size:35px;
 }
